@@ -1,0 +1,49 @@
+name: Ajax-data synchroniseren
+
+# Wordt van buitenaf gestart door cron-job.org (workflow_dispatch via de
+# GitHub-API) -- de ingebouwde 'schedule:' van GitHub is "best effort" en
+# slaat soms uren over. Handmatig starten kan ook via "Run workflow".
+on:
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Volledige verversing (wedstrijden + stand), niet alleen de probe-vensters'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+# Nooit twee runs tegelijk: anders conflicteren ze bij het terugschrijven
+# van data/ajax_schedule.json ("rebase conflict").
+concurrency:
+  group: ajax-data-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dependencies installeren
+        run: pip install requests
+
+      - name: Ajax-data ophalen en tabel bijwerken
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
+        run: python scripts/ajax_data_sync.py
+
+      - name: Wijzigingen committen (alleen als er echt iets veranderde)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ajax_schedule.json
+          git diff --staged --quiet || git commit -m "Ajax-data bijgewerkt [skip ci]"
+          git pull --rebase --autostash
+          git push

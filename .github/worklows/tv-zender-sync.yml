@@ -1,0 +1,32 @@
+name: Tv-zenders ophalen
+
+# Haalt van sport-tv-gids.nl op welke zender de Ajax-wedstrijden uitzendt.
+# PAS DE TIJDEN HIERONDER AAN naar wat je in je huidige repo gebruikt.
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tv-zender-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dependencies installeren
+        run: pip install requests beautifulsoup4
+
+      # Het script commit en pusht zelf data/tv_zenders.json.
+      - name: Tv-zenders ophalen
+        run: python scripts/tv_zender_sync.py

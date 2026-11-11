@@ -1,0 +1,40 @@
+name: Nieuws synchroniseren
+
+# Zet de nieuwste Ajax-artikelen in data/nieuws.json.
+# PAS DE TIJDEN HIERONDER AAN naar wat je in je huidige repo gebruikt.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nieuws-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Dependencies installeren
+        run: pip install requests
+
+      - name: Nieuws ophalen
+        run: python scripts/nieuws_sync.py
+
+      - name: Wijzigingen committen (alleen als er echt iets veranderde)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/nieuws.json
+          git diff --staged --quiet || git commit -m "Nieuws bijgewerkt [skip ci]"
+          git pull --rebase --autostash
+          git push

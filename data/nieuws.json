@@ -1,10 +1,20 @@
 {
-  "bijgewerkt_op": "2026-11-16T09:01:00.712029+00:00",
+  "bijgewerkt_op": "2026-11-16T09:30:37.099974+00:00",
   "artikelen": [
+    {
+      "titel": "Duitse journalist prijst Ter Stegen: 'Iedereen kijkt naar wat hij doet met Ajax'",
+      "link": "https://www.voetbalprimeur.nl/videos/2159279/perspectief-voor-ajax-doelman-ter-stegen-bij-duitsland.html",
+      "gepubliceerd_op": "2026-11-16T09:20:00+00:00"
+    },
     {
       "titel": "Duitse fan gevraagd naar Brandt: 'Daarvoor werd hij in Duitsland bekritiseerd'",
       "link": "https://www.voetbalprimeur.nl/videos/2159150/kritiek-op-julian-brandt-in-duitsland-in-grote-wedstrijden-niet-aanwezig.html",
       "gepubliceerd_op": "2026-11-16T07:48:42+00:00"
+    },
+    {
+      "titel": "Van der Meijde kritisch op populaire Ajax-uitblinker: 'Kan 50 minuten voetballen'",
+      "link": "https://www.voetbalprimeur.nl/nieuws/2159176/van-der-meijde-kritisch-op-ajax-en-tolu-helemaal-niet-fit.html",
+      "gepubliceerd_op": "2026-11-16T05:30:00+00:00"
     },
     {
       "titel": "Vertonghen vindt mindere jaren Ajax pijnlijk: 'Blijkbaar hoort dat bij de club'",
@@ -15,16 +25,6 @@
       "titel": "Oranje-fans zien geen gevaar in Ajax-keeper Ter Stegen: 'Kunnen niet voetballen'",
       "link": "https://www.voetbalprimeur.nl/videos/2159146/oranje-fans-duidelijk-over-ter-stegen-bij-duitsland-niet-bang-voor-zijn.html",
       "gepubliceerd_op": "2026-11-15T22:53:59+00:00"
-    },
-    {
-      "titel": "Huntelaar kijkt uit naar derde helft na duel: 'We gaan zien hoe gezellig het is'",
-      "link": "https://www.voetbalprimeur.nl/nieuws/2159193/huntelaar-laat-klasse-zien-tijdens-legends-duel.html",
-      "gepubliceerd_op": "2026-11-15T21:33:00+00:00"
-    },
-    {
-      "titel": "Ajax Legend onthult geheim achter rentree: 'Stiekem weer getraind'",
-      "link": "https://www.voetbalprimeur.nl/nieuws/2159182/ajax-legend-van-der-sar-onthult-geheim-achter-rentree.html",
-      "gepubliceerd_op": "2026-11-15T19:51:00+00:00"
     }
   ]
 }

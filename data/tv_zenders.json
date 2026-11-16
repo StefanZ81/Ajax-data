@@ -1,3 +1,19 @@
 {
-  "wedstrijden": []
+  "wedstrijden": [
+    {
+      "dag": 22,
+      "maand": 11,
+      "tegenstander": "Ado Den Haag",
+      "zenders": [
+        {
+          "naam": "ESPN 3",
+          "logo": "https://sport-tv-gids.nl/sportzender/espn-3-sm-live-op-tv-zender-nederland.png"
+        },
+        {
+          "naam": "ESPN Extra",
+          "logo": "https://sport-tv-gids.nl/sportzender/espn-extra-sm-live-op-tv-zender-nederland.png"
+        }
+      ]
+    }
+  ]
 }

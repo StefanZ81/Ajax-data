@@ -350,7 +350,10 @@ def _wedstrijd_uit_rij(rij) -> tuple[str, str] | None:
     for t in rij.stripped_strings:
         m = re.match(r"^\|?\s*(.+?)\s+-\s+(.+)$", t)
         if m and "vanaf" not in t.lower():
-            return m.group(1).strip(), m.group(2).strip()
+            # Sommige rijen hebben de competitie in dezelfde tekst:
+            # 'Ajax - Ado Den Haag | Vriendenloterij Eredivisie'.
+            thuis, uit = m.group(1).strip(), m.group(2).split("|")[0].strip()
+            return thuis, uit
     return None
 
 
@@ -376,6 +379,9 @@ def haal_op_dagpagina(slug: str, nu: datetime | None = None) -> list[dict]:
 
         tijdregel = next((t for t in rij.stripped_strings if "vanaf" in t.lower()), "")
         datum = _datum_uit_rij(tijdregel, nu)
+        if datum is None:
+            # Geen (leesbare) tijdregel in de rij: de dagpagina zelf bepaalt de dag.
+            datum = fallback_datum
         competitie_el = rij.find("i")
         competitie = competitie_el.get_text(strip=True) if competitie_el else "?"
 

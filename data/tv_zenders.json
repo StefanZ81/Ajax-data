@@ -1,6 +1,17 @@
 {
   "wedstrijden": [
     {
+      "dag": 26,
+      "maand": 11,
+      "tegenstander": "Thun",
+      "zenders": [
+        {
+          "naam": "Ziggo Sport 1",
+          "logo": "/static/zenders/ziggo-sport-1.jpg"
+        }
+      ]
+    },
+    {
       "dag": 22,
       "maand": 11,
       "tegenstander": "Ado Den Haag",

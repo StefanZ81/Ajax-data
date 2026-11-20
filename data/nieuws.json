@@ -1,6 +1,11 @@
 {
-  "bijgewerkt_op": "2026-11-20T21:30:38.856688+00:00",
+  "bijgewerkt_op": "2026-11-20T22:00:47.243184+00:00",
   "artikelen": [
+    {
+      "titel": "'Ik vond Ajax de beste keuze om me te ontwikkelen en een grotere stap te maken'",
+      "link": "https://www.voetbalprimeur.nl/nieuws/2161089/mokio-verklapt-hoe-hij-zichzelf-mentaal-sterker-maakt-bij-ajax.html",
+      "gepubliceerd_op": "2026-11-20T22:00:35+00:00"
+    },
     {
       "titel": "Duidelijke taal uit Amsterdam: 'Dat doet amateuristisch aan bij Ajax'",
       "link": "https://www.voetbalprimeur.nl/nieuws/2161079/dat-ajax-hoofd-jeugdopleidingen-nog-niet-heeft-ingevuld-doet-amateuristisch-aan.html",
@@ -20,11 +25,6 @@
       "titel": "Verweij weet het zeker: 'Hij gaat niet voor Ajax kiezen, hartstikke logisch'",
       "link": "https://www.voetbalprimeur.nl/nieuws/2161053/verweij-ter-stegen-gaat-niet-voor-ajax-kiezen.html",
       "gepubliceerd_op": "2026-11-20T20:01:17+00:00"
-    },
-    {
-      "titel": "Van Ajax-talent naar werken in Formule 1: 'Daarom besloot ik te stoppen'",
-      "link": "https://www.voetbalprimeur.nl/nieuws/2161030/nigel-bouman-switcht-van-ajax-naar-formule-1.html",
-      "gepubliceerd_op": "2026-11-20T18:00:33+00:00"
     }
   ]
 }

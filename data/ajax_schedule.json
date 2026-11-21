@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-21T21:35:24.809975+00:00",
+  "bijgewerkt_op": "2026-11-21T23:40:26.606237+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -521,20 +521,20 @@
     },
     {
       "positie": 5,
+      "team": "SC Heerenveen",
+      "punten": 24,
+      "gespeeld": 13,
+      "winst": 7,
+      "gelijk": 3,
+      "verlies": 3
+    },
+    {
+      "positie": 6,
       "team": "AZ",
       "punten": 23,
       "gespeeld": 12,
       "winst": 7,
       "gelijk": 2,
-      "verlies": 3
-    },
-    {
-      "positie": 6,
-      "team": "SC Heerenveen",
-      "punten": 22,
-      "gespeeld": 13,
-      "winst": 6,
-      "gelijk": 4,
       "verlies": 3
     },
     {
@@ -567,11 +567,11 @@
     {
       "positie": 10,
       "team": "FC Groningen",
-      "punten": 16,
+      "punten": 15,
       "gespeeld": 13,
       "winst": 4,
-      "gelijk": 4,
-      "verlies": 5
+      "gelijk": 3,
+      "verlies": 6
     },
     {
       "positie": 11,
@@ -646,5 +646,5 @@
       "verlies": 9
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-21T21:35:24.809968+00:00"
+  "stand_bijgewerkt_op": "2026-11-21T23:40:26.606228+00:00"
 }

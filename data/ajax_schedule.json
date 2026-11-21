@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-21T17:25:23.649902+00:00",
+  "bijgewerkt_op": "2026-11-21T19:35:21.196288+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -496,10 +496,10 @@
       "positie": 2,
       "team": "Feyenoord Rotterdam",
       "punten": 25,
-      "gespeeld": 12,
+      "gespeeld": 13,
       "winst": 7,
       "gelijk": 4,
-      "verlies": 1
+      "verlies": 2
     },
     {
       "positie": 3,
@@ -548,6 +548,15 @@
     },
     {
       "positie": 8,
+      "team": "SC Cambuur-Leeuwarden",
+      "punten": 18,
+      "gespeeld": 13,
+      "winst": 5,
+      "gelijk": 3,
+      "verlies": 5
+    },
+    {
+      "positie": 9,
       "team": "Go Ahead Eagles",
       "punten": 17,
       "gespeeld": 12,
@@ -556,17 +565,8 @@
       "verlies": 3
     },
     {
-      "positie": 9,
-      "team": "FC Groningen",
-      "punten": 15,
-      "gespeeld": 12,
-      "winst": 4,
-      "gelijk": 3,
-      "verlies": 5
-    },
-    {
       "positie": 10,
-      "team": "SC Cambuur-Leeuwarden",
+      "team": "FC Groningen",
       "punten": 15,
       "gespeeld": 12,
       "winst": 4,
@@ -584,6 +584,15 @@
     },
     {
       "positie": 12,
+      "team": "SBV Excelsior",
+      "punten": 14,
+      "gespeeld": 13,
+      "winst": 4,
+      "gelijk": 2,
+      "verlies": 7
+    },
+    {
+      "positie": 13,
       "team": "Sparta Rotterdam",
       "punten": 12,
       "gespeeld": 12,
@@ -592,7 +601,7 @@
       "verlies": 6
     },
     {
-      "positie": 13,
+      "positie": 14,
       "team": "PEC Zwolle",
       "punten": 12,
       "gespeeld": 12,
@@ -601,21 +610,12 @@
       "verlies": 6
     },
     {
-      "positie": 14,
+      "positie": 15,
       "team": "FC Utrecht",
       "punten": 12,
-      "gespeeld": 12,
+      "gespeeld": 13,
       "winst": 3,
       "gelijk": 3,
-      "verlies": 6
-    },
-    {
-      "positie": 15,
-      "team": "SBV Excelsior",
-      "punten": 11,
-      "gespeeld": 12,
-      "winst": 3,
-      "gelijk": 2,
       "verlies": 7
     },
     {
@@ -646,5 +646,5 @@
       "verlies": 9
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-21T17:25:23.649894+00:00"
+  "stand_bijgewerkt_op": "2026-11-21T19:35:21.196279+00:00"
 }

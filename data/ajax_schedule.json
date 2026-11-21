@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-21T15:20:36.531357+00:00",
+  "bijgewerkt_op": "2026-11-21T17:25:23.649902+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -486,9 +486,9 @@
     {
       "positie": 1,
       "team": "PSV",
-      "punten": 26,
-      "gespeeld": 12,
-      "winst": 8,
+      "punten": 29,
+      "gespeeld": 13,
+      "winst": 9,
       "gelijk": 2,
       "verlies": 2
     },
@@ -577,10 +577,10 @@
       "positie": 11,
       "team": "NEC",
       "punten": 14,
-      "gespeeld": 12,
+      "gespeeld": 13,
       "winst": 3,
       "gelijk": 5,
-      "verlies": 4
+      "verlies": 5
     },
     {
       "positie": 12,
@@ -646,5 +646,5 @@
       "verlies": 9
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-21T15:20:36.531348+00:00"
+  "stand_bijgewerkt_op": "2026-11-21T17:25:23.649894+00:00"
 }

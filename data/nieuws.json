@@ -1,6 +1,11 @@
 {
-  "bijgewerkt_op": "2026-11-22T08:30:38.780154+00:00",
+  "bijgewerkt_op": "2026-11-22T09:00:45.458844+00:00",
   "artikelen": [
+    {
+      "titel": "'Dit Ajax-gerucht is een vreemd verhaal, tien miljoen euro is veel geld'",
+      "link": "https://www.voetbalprimeur.nl/videos/2161486/dit-ajax-gerucht-over-tete-is-een-vreemd-verhaal.html",
+      "gepubliceerd_op": "2026-11-22T08:32:00+00:00"
+    },
     {
       "titel": "Basisklant Ajax maakt gigantische indruk: 'Eén van de beste van deze generatie'",
       "link": "https://www.voetbalprimeur.nl/videos/2161191/ado-doelman-kilian-nikiema-lovend-over-ter-stegen-voor-duel-met-ajax.html",
@@ -20,11 +25,6 @@
       "titel": "Knopper lovend over één man uit Ajax-tijd: 'Hij had een eigen visie, nooit wijken'",
       "link": "https://www.voetbalprimeur.nl/nieuws/2159047/oud-ajax-talent-richard-knopper-bewondert-louis-van-gaal.html",
       "gepubliceerd_op": "2026-11-21T22:19:12+00:00"
-    },
-    {
-      "titel": "Bounida heeft bijzondere band met één Ajacied: 'Een beetje 'kinds', net als ik'",
-      "link": "https://www.voetbalprimeur.nl/nieuws/2161141/bounida-heeft-een-goede-band-met-ajacied-julian-brandt.html",
-      "gepubliceerd_op": "2026-11-21T08:42:38+00:00"
     }
   ]
 }

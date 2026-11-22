@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-22T14:25:21.969373+00:00",
+  "bijgewerkt_op": "2026-11-22T14:30:37.380863+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -226,7 +226,10 @@
       "uit": "ADO Den Haag",
       "kickoff": "2026-11-22T13:30:00+00:00",
       "status": "live",
-      "rust": null,
+      "rust": {
+        "thuis": 3,
+        "uit": 0
+      },
       "eind": {
         "thuis": 3,
         "uit": 0

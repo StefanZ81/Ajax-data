@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-22T15:30:50.431166+00:00",
+  "bijgewerkt_op": "2026-11-22T15:35:24.094596+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -225,7 +225,7 @@
       "thuis": "AFC Ajax",
       "uit": "ADO Den Haag",
       "kickoff": "2026-11-22T13:30:00+00:00",
-      "status": "live",
+      "status": "afgelopen",
       "rust": {
         "thuis": 3,
         "uit": 0
@@ -500,6 +500,33 @@
     },
     {
       "positie": 2,
+      "team": "AFC Ajax",
+      "punten": 28,
+      "gespeeld": 13,
+      "winst": 8,
+      "gelijk": 4,
+      "verlies": 1
+    },
+    {
+      "positie": 3,
+      "team": "FC Twente '65",
+      "punten": 27,
+      "gespeeld": 13,
+      "winst": 8,
+      "gelijk": 3,
+      "verlies": 2
+    },
+    {
+      "positie": 4,
+      "team": "AZ",
+      "punten": 26,
+      "gespeeld": 13,
+      "winst": 8,
+      "gelijk": 2,
+      "verlies": 3
+    },
+    {
+      "positie": 5,
       "team": "Feyenoord Rotterdam",
       "punten": 25,
       "gespeeld": 13,
@@ -508,39 +535,12 @@
       "verlies": 2
     },
     {
-      "positie": 3,
-      "team": "FC Twente '65",
-      "punten": 25,
-      "gespeeld": 13,
-      "winst": 7,
-      "gelijk": 4,
-      "verlies": 2
-    },
-    {
-      "positie": 4,
-      "team": "AFC Ajax",
-      "punten": 25,
-      "gespeeld": 12,
-      "winst": 7,
-      "gelijk": 4,
-      "verlies": 1
-    },
-    {
-      "positie": 5,
+      "positie": 6,
       "team": "SC Heerenveen",
       "punten": 24,
       "gespeeld": 13,
       "winst": 7,
       "gelijk": 3,
-      "verlies": 3
-    },
-    {
-      "positie": 6,
-      "team": "AZ",
-      "punten": 23,
-      "gespeeld": 12,
-      "winst": 7,
-      "gelijk": 2,
       "verlies": 3
     },
     {
@@ -610,10 +610,10 @@
       "positie": 14,
       "team": "Sparta Rotterdam",
       "punten": 12,
-      "gespeeld": 12,
+      "gespeeld": 13,
       "winst": 3,
       "gelijk": 3,
-      "verlies": 6
+      "verlies": 7
     },
     {
       "positie": 15,
@@ -637,20 +637,20 @@
       "positie": 17,
       "team": "ADO Den Haag",
       "punten": 9,
-      "gespeeld": 12,
+      "gespeeld": 13,
       "winst": 2,
       "gelijk": 3,
-      "verlies": 7
+      "verlies": 8
     },
     {
       "positie": 18,
       "team": "Willem II Tilburg",
-      "punten": 4,
+      "punten": 3,
       "gespeeld": 13,
       "winst": 0,
-      "gelijk": 4,
-      "verlies": 9
+      "gelijk": 3,
+      "verlies": 10
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-22T12:00:46.216909+00:00"
+  "stand_bijgewerkt_op": "2026-11-22T15:35:24.094584+00:00"
 }

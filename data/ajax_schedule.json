@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-22T14:20:30.546591+00:00",
+  "bijgewerkt_op": "2026-11-22T14:25:21.969373+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -225,9 +225,12 @@
       "thuis": "AFC Ajax",
       "uit": "ADO Den Haag",
       "kickoff": "2026-11-22T13:30:00+00:00",
-      "status": "gepland",
+      "status": "live",
       "rust": null,
-      "eind": null
+      "eind": {
+        "thuis": 3,
+        "uit": 0
+      }
     },
     {
       "id": 558824,

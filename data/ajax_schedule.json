@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-22T15:35:24.094596+00:00",
+  "bijgewerkt_op": "2026-11-22T17:40:31.049968+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -546,9 +546,9 @@
     {
       "positie": 7,
       "team": "Fortuna Sittard",
-      "punten": 20,
-      "gespeeld": 12,
-      "winst": 5,
+      "punten": 23,
+      "gespeeld": 13,
+      "winst": 6,
       "gelijk": 5,
       "verlies": 2
     },
@@ -565,10 +565,10 @@
       "positie": 9,
       "team": "Go Ahead Eagles",
       "punten": 17,
-      "gespeeld": 12,
+      "gespeeld": 13,
       "winst": 4,
       "gelijk": 5,
-      "verlies": 3
+      "verlies": 4
     },
     {
       "positie": 10,
@@ -652,5 +652,5 @@
       "verlies": 10
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-22T15:35:24.094584+00:00"
+  "stand_bijgewerkt_op": "2026-11-22T17:40:31.049958+00:00"
 }

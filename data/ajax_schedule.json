@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-22T09:55:22.661148+00:00",
+  "bijgewerkt_op": "2026-11-22T12:00:46.216918+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -503,21 +503,21 @@
     },
     {
       "positie": 3,
+      "team": "FC Twente '65",
+      "punten": 25,
+      "gespeeld": 13,
+      "winst": 7,
+      "gelijk": 4,
+      "verlies": 2
+    },
+    {
+      "positie": 4,
       "team": "AFC Ajax",
       "punten": 25,
       "gespeeld": 12,
       "winst": 7,
       "gelijk": 4,
       "verlies": 1
-    },
-    {
-      "positie": 4,
-      "team": "FC Twente '65",
-      "punten": 24,
-      "gespeeld": 12,
-      "winst": 7,
-      "gelijk": 3,
-      "verlies": 2
     },
     {
       "positie": 5,
@@ -639,12 +639,12 @@
     {
       "positie": 18,
       "team": "Willem II Tilburg",
-      "punten": 3,
-      "gespeeld": 12,
+      "punten": 4,
+      "gespeeld": 13,
       "winst": 0,
-      "gelijk": 3,
+      "gelijk": 4,
       "verlies": 9
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-22T09:55:22.661140+00:00"
+  "stand_bijgewerkt_op": "2026-11-22T12:00:46.216909+00:00"
 }

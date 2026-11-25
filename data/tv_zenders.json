@@ -12,6 +12,17 @@
       ]
     },
     {
+      "dag": 27,
+      "maand": 11,
+      "tegenstander": "Thun",
+      "zenders": [
+        {
+          "naam": "Ziggo Sport 1",
+          "logo": "/static/zenders/ziggo-sport-1.jpg"
+        }
+      ]
+    },
+    {
       "dag": 29,
       "maand": 11,
       "tegenstander": "Feyenoord",

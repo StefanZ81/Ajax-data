@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-27T17:05:23.399567+00:00",
+  "bijgewerkt_op": "2026-11-27T19:05:32.268487+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -573,10 +573,10 @@
     {
       "positie": 10,
       "team": "FC Groningen",
-      "punten": 15,
-      "gespeeld": 13,
+      "punten": 16,
+      "gespeeld": 14,
       "winst": 4,
-      "gelijk": 3,
+      "gelijk": 4,
       "verlies": 6
     },
     {
@@ -645,12 +645,12 @@
     {
       "positie": 18,
       "team": "Willem II Tilburg",
-      "punten": 3,
-      "gespeeld": 13,
+      "punten": 4,
+      "gespeeld": 14,
       "winst": 0,
-      "gelijk": 3,
+      "gelijk": 4,
       "verlies": 10
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-27T17:05:23.399558+00:00"
+  "stand_bijgewerkt_op": "2026-11-27T19:05:32.268477+00:00"
 }

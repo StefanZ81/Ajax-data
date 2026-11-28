@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-28T13:50:29.879762+00:00",
+  "bijgewerkt_op": "2026-11-28T15:55:23.260111+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -590,21 +590,21 @@
     },
     {
       "positie": 12,
+      "team": "SBV Excelsior",
+      "punten": 15,
+      "gespeeld": 14,
+      "winst": 4,
+      "gelijk": 3,
+      "verlies": 7
+    },
+    {
+      "positie": 13,
       "team": "NEC",
       "punten": 14,
       "gespeeld": 13,
       "winst": 3,
       "gelijk": 5,
       "verlies": 5
-    },
-    {
-      "positie": 13,
-      "team": "SBV Excelsior",
-      "punten": 14,
-      "gespeeld": 13,
-      "winst": 4,
-      "gelijk": 2,
-      "verlies": 7
     },
     {
       "positie": 14,
@@ -627,10 +627,10 @@
     {
       "positie": 16,
       "team": "Telstar 1963",
-      "punten": 10,
-      "gespeeld": 13,
+      "punten": 11,
+      "gespeeld": 14,
       "winst": 2,
-      "gelijk": 4,
+      "gelijk": 5,
       "verlies": 7
     },
     {
@@ -652,5 +652,5 @@
       "verlies": 10
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-28T13:50:29.879754+00:00"
+  "stand_bijgewerkt_op": "2026-11-28T15:55:23.260103+00:00"
 }

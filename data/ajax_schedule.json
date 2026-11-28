@@ -1,5 +1,5 @@
 {
-  "bijgewerkt_op": "2026-11-28T15:55:23.260111+00:00",
+  "bijgewerkt_op": "2026-11-28T18:00:46.422888+00:00",
   "wedstrijden": [
     {
       "id": 558221,
@@ -492,10 +492,10 @@
     {
       "positie": 1,
       "team": "PSV",
-      "punten": 29,
-      "gespeeld": 13,
+      "punten": 30,
+      "gespeeld": 14,
       "winst": 9,
-      "gelijk": 2,
+      "gelijk": 3,
       "verlies": 2
     },
     {
@@ -564,14 +564,23 @@
     {
       "positie": 9,
       "team": "Go Ahead Eagles",
-      "punten": 17,
-      "gespeeld": 13,
+      "punten": 18,
+      "gespeeld": 14,
       "winst": 4,
-      "gelijk": 5,
+      "gelijk": 6,
       "verlies": 4
     },
     {
       "positie": 10,
+      "team": "SBV Excelsior",
+      "punten": 17,
+      "gespeeld": 14,
+      "winst": 5,
+      "gelijk": 2,
+      "verlies": 7
+    },
+    {
+      "positie": 11,
       "team": "FC Groningen",
       "punten": 16,
       "gespeeld": 14,
@@ -580,22 +589,13 @@
       "verlies": 6
     },
     {
-      "positie": 11,
+      "positie": 12,
       "team": "PEC Zwolle",
       "punten": 15,
       "gespeeld": 13,
       "winst": 4,
       "gelijk": 3,
       "verlies": 6
-    },
-    {
-      "positie": 12,
-      "team": "SBV Excelsior",
-      "punten": 15,
-      "gespeeld": 14,
-      "winst": 4,
-      "gelijk": 3,
-      "verlies": 7
     },
     {
       "positie": 13,
@@ -627,11 +627,11 @@
     {
       "positie": 16,
       "team": "Telstar 1963",
-      "punten": 11,
+      "punten": 10,
       "gespeeld": 14,
       "winst": 2,
-      "gelijk": 5,
-      "verlies": 7
+      "gelijk": 4,
+      "verlies": 8
     },
     {
       "positie": 17,
@@ -652,5 +652,5 @@
       "verlies": 10
     }
   ],
-  "stand_bijgewerkt_op": "2026-11-28T15:55:23.260103+00:00"
+  "stand_bijgewerkt_op": "2026-11-28T18:00:46.422878+00:00"
 }
